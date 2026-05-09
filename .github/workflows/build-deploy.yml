@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
+      - run: npm ci --ignore-optional
       - run: npm run build
         env:
           SITE_URL: https://frontierinsight.dev
