@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "search": "Search",
+    "methodology": "Methodology",
+    "archive": "Archive",
+    "home": "Home"
+  },
+  "hero": {
+    "stats": "Today we processed {articleCount} articles from {sourceCount} top science sources and distilled {featuredCount} deep insights",
+    "slogan": "Daily Briefing on Global Frontier Science",
+    "tagline": "First-hand sources, presented as-is"
+  },
+  "digest": {
+    "filteredFrom": "Filtered from {count} articles",
+    "share": "Share",
+    "copyLink": "Copy Link",
+    "copied": "Copied",
+    "sources": "Source Traceability",
+    "relatedDigests": "Related",
+    "deepInsight": "Deep Insight",
+    "quickNews": "Quick News",
+    "insightCount": "{count} insights"
+  },
+  "archive": {
+    "title": "Archive",
+    "viewAll": "View All Archives",
+    "noResults": "No archives yet"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search articles...",
+    "noResults": "No results found"
+  },
+  "subscribe": {
+    "title": "Subscribe to {siteName}",
+    "placeholder": "Enter your email",
+    "button": "Subscribe",
+    "success": "Subscribed successfully!",
+    "privacy": "We respect your privacy. No spam, ever."
+  },
+  "footer": {
+    "archive": "Archive",
+    "rss": "RSS",
+    "methodology": "Methodology",
+    "privacy": "Privacy"
+  },
+  "methodology": {
+    "title": "Methodology",
+    "subtitle": "How we filter and present information"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-08",
+  "locale": "en",
+  "title": "NASA Detects Water Vapor in Exoplanet Atmosphere; CRISPR Gene Editing Cures Sickle Cell Disease in Landmark Trial; Quantum Computer Breaks Error Correction Threshold",
+  "totalSources": 89,
+  "totalArticles": 320,
+  "slug": "2026-05-08-science-digest",
+  "articles": [
+    {
+      "number": 1,
+      "headline": "NASA's Webb Telescope Detects Water Vapor Signal in Exoplanet Atmosphere",
+      "summary": "Latest observations from the James Webb Space Telescope reveal significant water vapor signals in the atmosphere of exoplanet K2-18b, located 120 light-years from Earth. This discovery provides compelling evidence that the planet may host liquid water oceans. The research team described this as the clearest water vapor signature ever detected on a habitable-zone exoplanet, expanding our understanding of exoplanet atmospheric composition and offering new clues in the search for extraterrestrial life.",
+      "tags": ["Astronomy", "Exoplanets", "NASA"],
+      "sources": [
+        {
+          "title": "NASA Webb Reveals New Details in Exoplanet Atmosphere",
+          "url": "https://www.nasa.gov/example",
+          "domain": "nasa.gov"
+        },
+        {
+          "title": "Water vapor detected on K2-18b",
+          "url": "https://www.nature.com/example",
+          "domain": "nature.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "CRISPR Gene Editing Achieves Breakthrough Success in Sickle Cell Disease Treatment",
+      "summary": "A multi-center clinical trial shows that sickle cell disease patients treated with CRISPR-Cas9 gene editing achieved complete symptom remission after 18 months of follow-up. This marks the first time the technology has demonstrated sustained efficacy in a randomized controlled trial. Researchers edited patients' own hematopoietic stem cells to produce healthy hemoglobin. While long-term safety monitoring continues, the results are considered a milestone in gene therapy.",
+      "tags": ["Gene Editing", "Medicine", "CRISPR"],
+      "sources": [
+        {
+          "title": "CRISPR Sickle Cell Trial Success",
+          "url": "https://www.nature.com/example2",
+          "domain": "nature.com"
+        },
+        {
+          "title": "Gene editing cures sickle cell",
+          "url": "https://www.scientificamerican.com/example",
+          "domain": "scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "Quantum Computer Breaks Error Correction Threshold for the First Time",
+      "summary": "Google Quantum AI announced its next-generation quantum processor has surpassed the theoretical error correction threshold for the first time. This means adding more error-correcting qubits reduces the system's logical error rate — a necessary condition for practical quantum computing. The processor uses 105 physical qubits to achieve a lower error rate than a previous 72-qubit system, validating the scalability of the surface code error correction scheme.",
+      "tags": ["Quantum Computing", "Physics", "Technology"],
+      "sources": [
+        {
+          "title": "Google Quantum Error Correction Breakthrough",
+          "url": "https://www.technologyreview.com/example",
+          "domain": "technologyreview.com"
+        },
+        {
+          "title": "Quantum computer passes error threshold",
+          "url": "https://www.nature.com/example3",
+          "domain": "nature.com"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "China's space station completes first Earth observation experiment, acquiring high-resolution remote sensing data",
+      "source": {
+        "title": "China space station experiment",
+        "url": "https://www.kepu.net.cn/example",
+        "domain": "kepu.net.cn"
+      }
+    },
+    {
+      "text": "Deep-sea probe discovers new species colonies at 8,000 meters below sea level",
+      "source": {
+        "title": "Deep sea discovery",
+        "url": "https://www.nature.com/example4",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "MIT research team develops biodegradable semiconductor chip material",
+      "source": {
+        "title": "Biodegradable chips",
+        "url": "https://www.technologyreview.com/example2",
+        "domain": "technologyreview.com"
+      }
+    },
+    {
+      "text": "World's first nuclear fusion reactor project reaches milestone in France",
+      "source": {
+        "title": "ITER progress",
+        "url": "https://www.nature.com/example5",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "Novel mRNA vaccine platform provides broad protection against multiple flu strains simultaneously",
+      "source": {
+        "title": "mRNA flu vaccine",
+        "url": "https://www.scientificamerican.com/example2",
+        "domain": "scientificamerican.com"
+      }
+    },
+    {
+      "text": "Archaeologists discover 100,000-year-old Denisovan fossil on Tibetan Plateau",
+      "source": {
+        "title": "Denisovan fossil",
+        "url": "https://www.nature.com/example6",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "ESO releases new high-resolution image of supermassive black hole at Milky Way center",
+      "source": {
+        "title": "Black hole image",
+        "url": "https://www.nasa.gov/example2",
+        "domain": "nasa.gov"
+      }
+    },
+    {
+      "text": "New perovskite solar cell efficiency breaks 30% barrier",
+      "source": {
+        "title": "Perovskite solar cell",
+        "url": "https://www.nature.com/example7",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "Mars rover discovers mineral structures resembling microbial traces in Jezero Crater",
+      "source": {
+        "title": "Mars mineral structure",
+        "url": "https://www.nasa.gov/example3",
+        "domain": "nasa.gov"
+      }
+    },
+    {
+      "text": "AI model independently discovers new mathematical theorem verified by mathematicians",
+      "source": {
+        "title": "AI math discovery",
+        "url": "https://www.nature.com/math-ai",
+        "domain": "nature.com"
+      }
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-05-08T02:00:00Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}

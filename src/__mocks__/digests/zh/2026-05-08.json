@@ -1,0 +1,151 @@
+{
+  "date": "2026-05-08",
+  "locale": "zh",
+  "title": "NASA 发现系外行星大气含水蒸气；CRISPR 基因编辑治愈镰状细胞病首例临床试验成功；量子计算机首次实现纠错超越阈值",
+  "totalSources": 89,
+  "totalArticles": 320,
+  "slug": "2026-05-08-science-digest",
+  "articles": [
+    {
+      "number": 1,
+      "headline": "NASA 韦伯望远镜在系外行星大气中检测到水蒸气信号",
+      "summary": "詹姆斯·韦伯太空望远镜的最新观测数据表明，距离地球 120 光年的系外行星 K2-18b 的大气层中存在显著的水蒸气信号。这一发现为该行星可能拥有液态水海洋提供了有力证据。研究团队表示，这是迄今为止在宜居带系外行星上检测到的最清晰的水汽特征。该发现不仅拓展了我们对系外行星大气组成的认知，也为寻找地外生命提供了新的线索。",
+      "tags": ["天文学", "系外行星", "NASA"],
+      "sources": [
+        {
+          "title": "NASA Webb Reveals New Details in Exoplanet Atmosphere",
+          "url": "https://www.nasa.gov/example",
+          "domain": "nasa.gov"
+        },
+        {
+          "title": "Water vapor detected on K2-18b",
+          "url": "https://www.nature.com/example",
+          "domain": "nature.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "CRISPR 基因编辑治疗镰状细胞病取得突破性成功",
+      "summary": "一项多中心临床试验显示，接受 CRISPR-Cas9 基因编辑治疗的镰状细胞病患者在随访 18 个月后全部实现了症状完全缓解。这是该技术首次在随机对照试验中展示持续疗效。研究人员通过编辑患者自身的造血干细胞，使其产生健康的血红蛋白。虽然长期安全性仍需观察，但这一结果被视为基因治疗领域的里程碑。",
+      "tags": ["基因编辑", "医学", "CRISPR"],
+      "sources": [
+        {
+          "title": "CRISPR Sickle Cell Trial Success",
+          "url": "https://www.nature.com/example2",
+          "domain": "nature.com"
+        },
+        {
+          "title": "Gene editing cures sickle cell",
+          "url": "https://www.scientificamerican.com/example",
+          "domain": "scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "量子计算机首次突破纠错阈值，实现实用化关键一步",
+      "summary": "谷歌量子 AI 团队宣布其新一代量子处理器在纠错方面首次超越了理论阈值。这意味着每增加一个纠错量子比特，系统的逻辑错误率不升反降——这是量子计算走向实用的必要条件。该处理器使用 105 个物理量子比特实现了比之前 72 量子比特系统更低的错误率，验证了表面码纠错方案的可扩展性。",
+      "tags": ["量子计算", "物理学", "前沿技术"],
+      "sources": [
+        {
+          "title": "Google Quantum Error Correction Breakthrough",
+          "url": "https://www.technologyreview.com/example",
+          "domain": "technologyreview.com"
+        },
+        {
+          "title": "Quantum computer passes error threshold",
+          "url": "https://www.nature.com/example3",
+          "domain": "nature.com"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "中国空间站完成在轨组装后首次对地观测实验，获取高分辨率遥感数据",
+      "source": {
+        "title": "中国空间站实验",
+        "url": "https://www.kepu.net.cn/example",
+        "domain": "kepu.net.cn"
+      }
+    },
+    {
+      "text": "深海探测器在海平面下 8000 米处发现新物种群落",
+      "source": {
+        "title": "Deep sea discovery",
+        "url": "https://www.nature.com/example4",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "MIT 研究团队开发出可生物降解的半导体芯片材料",
+      "source": {
+        "title": "Biodegradable chips",
+        "url": "https://www.technologyreview.com/example2",
+        "domain": "technologyreview.com"
+      }
+    },
+    {
+      "text": "全球首个核聚变反应堆建设项目在法国取得阶段性进展",
+      "source": {
+        "title": "ITER progress",
+        "url": "https://www.nature.com/example5",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "新型 mRNA 疫苗平台可同时针对多种流感病毒株提供广谱保护",
+      "source": {
+        "title": "mRNA flu vaccine",
+        "url": "https://www.scientificamerican.com/example2",
+        "domain": "scientificamerican.com"
+      }
+    },
+    {
+      "text": "考古学家在青藏高原发现距今 10 万年的丹尼索瓦人化石",
+      "source": {
+        "title": "Denisovan fossil",
+        "url": "https://www.nature.com/example6",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "欧洲南方天文台发布银河系中心超大质量黑洞最新高清图像",
+      "source": {
+        "title": "Black hole image",
+        "url": "https://www.nasa.gov/example2",
+        "domain": "nasa.gov"
+      }
+    },
+    {
+      "text": "果壳网调查报告：Z 世代科学素养提升，但科学方法论认知仍需加强",
+      "source": {
+        "title": "科学素养调查",
+        "url": "https://www.guokr.com/example",
+        "domain": "guokr.com"
+      }
+    },
+    {
+      "text": "新型钙钛矿太阳能电池转换效率突破 30% 大关",
+      "source": {
+        "title": "Perovskite solar cell",
+        "url": "https://www.nature.com/example7",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "火星探测车在 Jezero 陨石坑发现疑似微生物遗迹的矿物结构",
+      "source": {
+        "title": "Mars mineral structure",
+        "url": "https://www.nasa.gov/example3",
+        "domain": "nasa.gov"
+      }
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-05-08T02:00:00Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}

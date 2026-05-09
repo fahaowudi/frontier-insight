@@ -1,0 +1,50 @@
+{
+  "name": "info-collector",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs",
+    "build:search": "npx pagefind --site out --output-path public/pagefind",
+    "build:full": "next build && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs && npx pagefind --site out --output-path public/pagefind",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "pipeline": "npx tsx scripts/run-pipeline.ts",
+    "pipeline:dry": "npx tsx scripts/run-pipeline-dry.ts"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.4.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.6",
+    "openai": "^6.37.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "rss-parser": "^3.13.0",
+    "shadcn": "^4.7.0",
+    "tailwind-merge": "^3.5.0",
+    "tw-animate-css": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.6.2",
+    "@types/react": "^19.2.14",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "jsdom": "^29.1.1",
+    "pagefind": "^1.5.2",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^4.2.4",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.5",
+    "wrangler": "^4.90.0"
+  }
+}

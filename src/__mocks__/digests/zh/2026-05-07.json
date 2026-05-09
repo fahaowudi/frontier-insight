@@ -1,0 +1,141 @@
+{
+  "date": "2026-05-07",
+  "locale": "zh",
+  "title": "CERN 大型强子对撞机发现新粒子；大脑记忆存储机制被破解；新型超导材料在室温下展示零电阻特性",
+  "totalSources": 76,
+  "totalArticles": 285,
+  "slug": "2026-05-07-science-digest",
+  "articles": [
+    {
+      "number": 1,
+      "headline": "CERN 大型强子对撞机发现全新亚原子粒子",
+      "summary": "欧洲核子研究中心（CERN）宣布，大型强子对撞机（LHC）的高亮度升级版本捕获到了一种此前理论预测但从未被观测到的亚原子粒子。该粒子的质量约为质子的 5 倍，其衰变模式与标准模型预测存在微妙偏差，可能暗示着新物理学的存在。物理学家们正对数据进行更深入的分析，以确定这是否意味着需要扩展粒子物理的标准模型。",
+      "tags": ["粒子物理", "CERN", "基础科学"],
+      "sources": [
+        {
+          "title": "CERN New Particle Discovery",
+          "url": "https://www.nature.com/cern-example",
+          "domain": "nature.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "神经科学研究首次完整破解大脑长期记忆的存储机制",
+      "summary": "一项发表在 Nature 上的突破性研究揭示了大脑如何将短期记忆转化为长期记忆的分子机制。研究团队利用新型脑成像技术，首次在活体小鼠中追踪到记忆从海马体迁移至大脑皮层的完整路径。这一发现不仅解答了神经科学领域长达数十年的核心问题，也为阿尔茨海默病的早期干预提供了新的靶点。",
+      "tags": ["神经科学", "记忆", "大脑"],
+      "sources": [
+        {
+          "title": "Memory storage mechanism decoded",
+          "url": "https://www.nature.com/memory-example",
+          "domain": "nature.com"
+        },
+        {
+          "title": "How the brain stores memories",
+          "url": "https://www.scientificamerican.com/memory",
+          "domain": "scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "新型超导材料在接近室温条件下展示零电阻特性",
+      "summary": "由中国科学家领衔的国际研究团队报告了一种新型氢化物超导材料，在 -23°C 和 180 万个大气压条件下展示了明确的零电阻特性。虽然所需压力仍然很高，但这是迄今报道的最高超导转变温度之一。研究团队表示，正在探索通过化学掺杂降低所需压力的方案，朝着真正的室温常压超导目标迈进。",
+      "tags": ["超导", "材料科学", "物理学"],
+      "sources": [
+        {
+          "title": "Near room-temperature superconductor",
+          "url": "https://www.nature.com/superconductor",
+          "domain": "nature.com"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "国际空间站迎来首批商业科研乘客，开展微重力材料合成实验",
+      "source": {
+        "title": "ISS commercial research",
+        "url": "https://www.nasa.gov/iss-example",
+        "domain": "nasa.gov"
+      }
+    },
+    {
+      "text": "人工智能模型首次独立发现新的数学定理并获得数学家验证",
+      "source": {
+        "title": "AI math discovery",
+        "url": "https://www.nature.com/math-ai",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "新型碳捕获装置效率提升 40%，成本降低至每吨 CO₂ 50 美元以下",
+      "source": {
+        "title": "Carbon capture",
+        "url": "https://www.technologyreview.com/carbon",
+        "domain": "technologyreview.com"
+      }
+    },
+    {
+      "text": "太平洋深海采矿环境影响评估报告发布，引发国际争议",
+      "source": {
+        "title": "Deep sea mining",
+        "url": "https://www.nature.com/deep-sea",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "基因驱动技术在小规模试验中成功压制了入侵物种种群数量",
+      "source": {
+        "title": "Gene drive trial",
+        "url": "https://www.nature.com/gene-drive",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "黑洞碰撞产生的引力波信号首次被三个探测器同时捕获",
+      "source": {
+        "title": "Gravitational waves",
+        "url": "https://www.nasa.gov/gw-example",
+        "domain": "nasa.gov"
+      }
+    },
+    {
+      "text": "果壳网科普指数报告：中国公众科学兴趣持续上升",
+      "source": {
+        "title": "科普指数",
+        "url": "https://www.guokr.com/index",
+        "domain": "guokr.com"
+      }
+    },
+    {
+      "text": "全球最大光学望远镜 ELT 主镜完成最后一面镜片安装",
+      "source": {
+        "title": "ELT mirror",
+        "url": "https://www.nature.com/elt",
+        "domain": "nature.com"
+      }
+    },
+    {
+      "text": "新型纳米机器人可在血管中定向输送抗癌药物",
+      "source": {
+        "title": "Nanorobot drug delivery",
+        "url": "https://www.scientificamerican.com/nanobot",
+        "domain": "scientificamerican.com"
+      }
+    },
+    {
+      "text": "南极冰芯分析揭示 80 万年前地球大气 CO₂ 浓度新数据",
+      "source": {
+        "title": "Antarctic ice core",
+        "url": "https://www.nature.com/ice-core",
+        "domain": "nature.com"
+      }
+    }
+  ],
+  "meta": {
+    "generatedAt": "2026-05-07T02:00:00Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}

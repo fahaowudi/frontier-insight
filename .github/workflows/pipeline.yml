@@ -1,0 +1,42 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # 2am CST = 18:00 UTC previous day
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to process (YYYY-MM-DD)"
+        required: false
+      domain:
+        description: "Domain config to use"
+        required: false
+        default: "science"
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run pipeline
+        env:
+          DATE: ${{ github.event.inputs.date || '' }}
+          DOMAIN: ${{ github.event.inputs.domain || 'science' }}
+          SCORER_API_KEY: ${{ secrets.SCORER_API_KEY }}
+          SCORER_BASE_URL: ${{ secrets.SCORER_BASE_URL }}
+          SCORER_MODEL: ${{ secrets.SCORER_MODEL }}
+          GENERATOR_API_KEY: ${{ secrets.GENERATOR_API_KEY }}
+          GENERATOR_BASE_URL: ${{ secrets.GENERATOR_BASE_URL }}
+          GENERATOR_MODEL: ${{ secrets.GENERATOR_MODEL }}
+      - name: Commit new content
+        run: |
+          git config user.name "Pipeline Bot"
+          git config user.email "bot@frontierinsight.dev"
+          git add content/digests/
+          git diff --staged --quiet || git commit -m "digest: $(date +%Y-%m-%d)"
+          git push

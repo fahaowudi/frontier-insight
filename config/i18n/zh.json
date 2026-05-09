@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "search": "搜索",
+    "methodology": "方法论",
+    "archive": "存档",
+    "home": "首页"
+  },
+  "hero": {
+    "stats": "今日已从 {sourceCount} 个顶级科学源处理 {articleCount} 篇文献，提炼出 {featuredCount} 篇深度洞察",
+    "slogan": "全球前沿科学与硬核科普每日简报",
+    "tagline": "一手信源，如实呈现"
+  },
+  "digest": {
+    "filteredFrom": "从 {count} 条资讯中筛选",
+    "share": "分享",
+    "copyLink": "复制链接",
+    "copied": "已复制",
+    "sources": "来源溯源",
+    "relatedDigests": "相关推荐",
+    "deepInsight": "深度解读",
+    "quickNews": "快讯",
+    "insightCount": "{count} 篇深度"
+  },
+  "archive": {
+    "title": "存档",
+    "viewAll": "查看全部存档",
+    "noResults": "暂无存档"
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "搜索文章...",
+    "noResults": "未找到相关结果"
+  },
+  "subscribe": {
+    "title": "订阅 {siteName}",
+    "placeholder": "输入邮箱地址",
+    "button": "订阅",
+    "success": "订阅成功！",
+    "privacy": "我们尊重您的隐私，绝不发送垃圾邮件。"
+  },
+  "footer": {
+    "archive": "存档",
+    "rss": "RSS",
+    "methodology": "方法论",
+    "privacy": "隐私政策"
+  },
+  "methodology": {
+    "title": "方法论",
+    "subtitle": "我们如何筛选和呈现信息"
+  }
+}
