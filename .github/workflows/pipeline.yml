@@ -13,6 +13,9 @@ on:
         required: false
         default: "science"
 
+permissions:
+  contents: write
+
 jobs:
   collect:
     runs-on: ubuntu-latest
