@@ -15,7 +15,8 @@ interface ScoreResult {
   reason: string;
 }
 
-const BATCH_SIZE = 50;
+const BATCH_SIZE = 100;
+const BATCH_DELAY_MS = 3000;
 
 export async function scoreItems(
   items: NormalizedItem[],
@@ -36,11 +37,22 @@ export async function scoreItems(
   console.log(
     `  Scoring ${items.length} items in ${batches.length} batches...`,
   );
-  const results = await Promise.all(
-    batches.map((batch) => scoreBatch(batch, context, client)),
-  );
 
-  return results.flat();
+  const allResults: ScoredItem[][] = [];
+  for (let i = 0; i < batches.length; i++) {
+    console.log(`  Batch ${i + 1}/${batches.length}...`);
+    const result = await scoreBatch(batches[i], context, client);
+    allResults.push(result);
+    if (i < batches.length - 1) {
+      await delay(BATCH_DELAY_MS);
+    }
+  }
+
+  return allResults.flat();
+}
+
+function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function scoreBatch(

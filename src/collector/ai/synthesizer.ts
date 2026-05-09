@@ -28,12 +28,22 @@ export async function synthesizeDigest(
   const topItems = scoredItems.slice(0, topCount);
   const briefItems = scoredItems.slice(topCount, topCount + briefCount);
 
-  // Generate deep articles
-  const articles = await Promise.all(
-    topItems.map((item, i) =>
-      generateArticle(client, config, item, locale, i + 1),
-    ),
-  );
+  // Generate deep articles sequentially to avoid rate limits
+  const articles: NonNullable<Awaited<ReturnType<typeof generateArticle>>>[] =
+    [];
+  for (let i = 0; i < topItems.length; i++) {
+    const article = await generateArticle(
+      client,
+      config,
+      topItems[i],
+      locale,
+      i + 1,
+    );
+    if (article) articles.push(article);
+    if (i < topItems.length - 1) {
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+  }
 
   // Generate quick news
   const quickNews = await generateQuickNews(client, config, briefItems, locale);
@@ -52,7 +62,7 @@ export async function synthesizeDigest(
     title: titleTemplate,
     totalSources: new Set(allSources.map((s) => s.sourceId)).size,
     totalArticles: scoredItems.length,
-    articles: articles.filter(Boolean) as Digest["articles"],
+    articles,
     quickNews,
     slug: `${date}-${domain}-digest`,
     meta: {
