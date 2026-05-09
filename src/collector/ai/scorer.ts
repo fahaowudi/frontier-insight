@@ -15,6 +15,8 @@ interface ScoreResult {
   reason: string;
 }
 
+const BATCH_SIZE = 50;
+
 export async function scoreItems(
   items: NormalizedItem[],
   context: string,
@@ -22,6 +24,30 @@ export async function scoreItems(
 ): Promise<ScoredItem[]> {
   if (items.length === 0) return [];
 
+  if (items.length <= BATCH_SIZE) {
+    return scoreBatch(items, context, client);
+  }
+
+  const batches: NormalizedItem[][] = [];
+  for (let i = 0; i < items.length; i += BATCH_SIZE) {
+    batches.push(items.slice(i, i + BATCH_SIZE));
+  }
+
+  console.log(
+    `  Scoring ${items.length} items in ${batches.length} batches...`,
+  );
+  const results = await Promise.all(
+    batches.map((batch) => scoreBatch(batch, context, client)),
+  );
+
+  return results.flat();
+}
+
+async function scoreBatch(
+  items: NormalizedItem[],
+  context: string,
+  client: ClientWithModel,
+): Promise<ScoredItem[]> {
   const prompt = buildScoringPrompt(items, context);
   const response = await client.chat.completions.create({
     model: client.defaultModel,

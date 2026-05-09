@@ -39,6 +39,16 @@ async function main() {
   );
   console.log(`Total normalized items: ${allItems.length}`);
 
+  // Filter to recent items only (within 48h)
+  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
+  const recentItems = allItems.filter((item) => {
+    const d = new Date(item.pubDate).getTime();
+    return !isNaN(d) && d >= cutoff;
+  });
+  console.log(
+    `Recent items (48h): ${recentItems.length} (filtered out ${allItems.length - recentItems.length} older)`,
+  );
+
   for (const result of results) {
     const normalized = normalizeRawItems(
       result.items,
@@ -52,7 +62,7 @@ async function main() {
   console.log("\n--- Step 3: Scoring ---");
   const scorerClient = createScorerClient();
   const scored = await scoreItems(
-    allItems,
+    recentItems.length > 0 ? recentItems : allItems,
     config.editorialRules.aiPromptContext,
     scorerClient,
   );

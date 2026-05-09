@@ -39,19 +39,22 @@ export async function synthesizeDigest(
   const quickNews = await generateQuickNews(client, config, briefItems, locale);
 
   const allSources = scoredItems.slice(0, topCount + briefCount);
+  const domain = config.site.domain;
+  const siteName = config.site.name;
+  const titleTemplate =
+    locale === "zh"
+      ? `${date} ${siteName}日报`
+      : `${siteName} Daily Digest — ${date}`;
 
   return {
     date,
     locale,
-    title:
-      locale === "zh"
-        ? `${date} 科学前沿日报`
-        : `Frontier Science Digest — ${date}`,
+    title: titleTemplate,
     totalSources: new Set(allSources.map((s) => s.sourceId)).size,
     totalArticles: scoredItems.length,
     articles: articles.filter(Boolean) as Digest["articles"],
     quickNews,
-    slug: `${date}-science-digest`,
+    slug: `${date}-${domain}-digest`,
     meta: {
       generatedAt: new Date().toISOString(),
       version: "1.0",

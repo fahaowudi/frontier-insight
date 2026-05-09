@@ -2,6 +2,7 @@ import type { SourceDefinition } from "@/lib/types";
 import type { RawItem } from "./rss-fetcher";
 import { fetchRssSource } from "./rss-fetcher";
 import { fetchHtmlSource } from "./html-fetcher";
+import { fetchApiSource } from "./api-fetcher";
 
 export type { RawItem };
 
@@ -14,9 +15,7 @@ export async function fetchSource(
     case "html":
       return fetchHtmlSource(source);
     case "api":
-      // API sources need custom implementations per source
-      console.warn(`API source "${source.id}" not yet implemented, skipping`);
-      return [];
+      return fetchApiSource(source);
     default:
       console.warn(`Unknown source type "${source.type}" for "${source.id}"`);
       return [];

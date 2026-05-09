@@ -33,7 +33,8 @@ const scienceConfig: DomainConfig = {
       id: "nasa-news",
       name: "NASA",
       url: "https://www.nasa.gov/news-release/",
-      type: "api",
+      type: "html",
+      parser: "jina",
       weight: 1.8,
     },
     {
