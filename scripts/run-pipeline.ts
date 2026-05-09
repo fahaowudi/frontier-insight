@@ -1,6 +1,7 @@
 import { loadDomainConfig } from "@/lib/config";
 import { fetchAllSources } from "@/collector/fetchers";
-import { normalizeRawItems } from "@/collector/normalizer";
+import { normalizeRawItems, deduplicateByTitle } from "@/collector/normalizer";
+import type { NormalizedItem } from "@/collector/normalizer";
 import { saveRawItems, saveDigest, digestExists } from "@/collector/storage";
 import { scoreItems } from "@/collector/ai/scorer";
 import { synthesizeDigest } from "@/collector/ai/synthesizer";
@@ -32,22 +33,12 @@ async function main() {
     return;
   }
 
-  // Step 2: Normalize and save raw items
+  // Step 2: Normalize, deduplicate, pre-filter
   console.log("\n--- Step 2: Normalizing ---");
   const allItems = results.flatMap((r) =>
     normalizeRawItems(r.items, r.source.weight, r.source.language),
   );
   console.log(`Total normalized items: ${allItems.length}`);
-
-  // Filter to recent items only (within 48h)
-  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
-  const recentItems = allItems.filter((item) => {
-    const d = new Date(item.pubDate).getTime();
-    return !isNaN(d) && d >= cutoff;
-  });
-  console.log(
-    `Recent items (48h): ${recentItems.length} (filtered out ${allItems.length - recentItems.length} older)`,
-  );
 
   for (const result of results) {
     const normalized = normalizeRawItems(
@@ -58,11 +49,31 @@ async function main() {
     saveRawItems(DATE, result.source.id, normalized);
   }
 
+  // Pre-filter: per-source limit
+  const totalNeeded =
+    config.editorialRules.dailyFeaturedCount +
+    config.editorialRules.dailyBriefsCount;
+  const maxPerSource = Math.ceil(totalNeeded / results.length) * 3;
+  const grouped = new Map<string, NormalizedItem[]>();
+  for (const item of allItems) {
+    const list = grouped.get(item.sourceId) || [];
+    list.push(item);
+    grouped.set(item.sourceId, list);
+  }
+  const capped = Array.from(grouped.values()).flatMap((items) =>
+    items.slice(0, maxPerSource),
+  );
+  console.log(`After per-source cap (${maxPerSource}): ${capped.length} items`);
+
+  // Deduplicate by title
+  const deduped = deduplicateByTitle(capped);
+  console.log(`After title dedup: ${deduped.length} items`);
+
   // Step 3: Score items
   console.log("\n--- Step 3: Scoring ---");
   const scorerClient = createScorerClient();
   const scored = await scoreItems(
-    recentItems.length > 0 ? recentItems : allItems,
+    deduped,
     config.editorialRules.aiPromptContext,
     scorerClient,
   );
@@ -74,27 +85,32 @@ async function main() {
       .join(", ")}`,
   );
 
-  // Step 4: Generate digests for each locale
+  // Step 4: Generate digests in parallel for each locale
   console.log("\n--- Step 4: Generating digests ---");
   const generatorClient = createGeneratorClient();
 
-  for (const locale of locales) {
-    if (digestExists(DATE, locale)) {
-      console.log(`  ${locale}: already exists, skipping`);
-      continue;
-    }
-    console.log(`  ${locale}: synthesizing...`);
-    const digest = await synthesizeDigest(
-      sorted,
-      DATE,
-      config,
-      generatorClient,
-      locale,
+  const pending = locales.filter((l) => !digestExists(DATE, l));
+  if (pending.length === 0) {
+    console.log("All locales already exist.");
+  } else {
+    const digests = await Promise.all(
+      pending.map(async (locale) => {
+        console.log(`  ${locale}: synthesizing...`);
+        const digest = await synthesizeDigest(
+          sorted,
+          DATE,
+          config,
+          generatorClient,
+          locale,
+        );
+        saveDigest(digest);
+        console.log(
+          `  ${locale}: ${digest.articles.length} articles, ${digest.quickNews.length} quick news`,
+        );
+        return digest;
+      }),
     );
-    saveDigest(digest);
-    console.log(
-      `  ${locale}: ${digest.articles.length} articles, ${digest.quickNews.length} quick news`,
-    );
+    console.log(`Generated ${digests.length} locale(s): ${pending.join(", ")}`);
   }
 
   console.log(`\n=== Pipeline complete for ${DATE} ===\n`);

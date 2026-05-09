@@ -15,8 +15,8 @@ interface ScoreResult {
   reason: string;
 }
 
-const BATCH_SIZE = 100;
-const BATCH_DELAY_MS = 3000;
+const BATCH_SIZE = 200;
+const BATCH_DELAY_MS = 1000;
 
 export async function scoreItems(
   items: NormalizedItem[],

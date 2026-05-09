@@ -46,3 +46,16 @@ function detectLanguage(text: string, fallback: string): string {
   const totalChars = text.replace(/\s/g, "").length || 1;
   return zhChars / totalChars > 0.1 ? "zh" : fallback;
 }
+
+export function deduplicateByTitle(items: NormalizedItem[]): NormalizedItem[] {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    const fingerprint = item.title
+      .toLowerCase()
+      .replace(/[^a-z0-9一-鿿]/g, "")
+      .slice(0, 40);
+    if (!fingerprint || seen.has(fingerprint)) return false;
+    seen.add(fingerprint);
+    return true;
+  });
+}

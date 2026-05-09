@@ -143,10 +143,28 @@ function parseListItems(markdown: string, baseUrl: string): ArticleCandidate[] {
     (r) =>
       r.title.length > 3 &&
       r.title.length < 300 &&
-      !r.title.toLowerCase().startsWith("skip to") &&
-      !r.title.toLowerCase().startsWith("menu") &&
-      !r.title.toLowerCase().startsWith("navigation"),
+      !isNavJunk(r.title) &&
+      !isStaticUrl(r.link),
   );
+
+  function isNavJunk(title: string): boolean {
+    const lower = title.toLowerCase();
+    return (
+      lower.startsWith("skip to") ||
+      lower.startsWith("menu") ||
+      lower.startsWith("navigation") ||
+      lower.startsWith("toggle") ||
+      lower.startsWith("close") ||
+      lower.startsWith("open") ||
+      lower.startsWith("search") ||
+      /^!\[image/i.test(title) ||
+      /^image\s*\d+/i.test(title)
+    );
+  }
+
+  function isStaticUrl(url: string): boolean {
+    return /\.(jpg|jpeg|png|gif|svg|css|js|ico|webp|mp4|pdf)(\?|$)/i.test(url);
+  }
 }
 
 function finishItem(
@@ -164,7 +182,7 @@ function finishItem(
     }
   }
   return {
-    title: title.replace(/[*_`#]/g, "").trim(),
+    title: cleanTitle(title),
     link: resolvedLink || baseUrl,
     snippet: snippet || title,
   };
@@ -172,7 +190,15 @@ function finishItem(
 
 function extractTitle(md: string): string {
   const match = md.match(/^#\s+(.+)/m);
-  return match?.[1]?.replace(/[*_`]/g, "").trim() || "";
+  return match?.[1] ? cleanTitle(match[1]) : "";
+}
+
+function cleanTitle(raw: string): string {
+  return raw
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "") // remove ![alt](url)
+    .replace(/\[[^\]]*\]\([^)]*\)/g, "$1") // keep link text
+    .replace(/[*_`#]/g, "")
+    .trim();
 }
 
 function truncate(text: string, maxLen: number): string {
