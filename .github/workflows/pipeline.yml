@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-      - run: npm ci --ignore-optional
+      - run: npm install
       - run: npm run pipeline
         env:
           DATE: ${{ github.event.inputs.date || '' }}
