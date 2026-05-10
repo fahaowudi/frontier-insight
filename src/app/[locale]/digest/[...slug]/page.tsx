@@ -135,6 +135,24 @@ export default async function DigestDetailPage({
                   </span>
                 ))}
               </div>
+              {article.sources.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {article.sources.map((s, si) => (
+                    <a
+                      key={si}
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 rounded-lg border border-border px-2 py-0.5 text-xs text-muted-foreground hover:text-primary hover:border-primary/30 transition-colors"
+                    >
+                      <span className="h-1.5 w-1.5 rounded-full bg-primary/60 shrink-0" />
+                      {s.title.length > 40
+                        ? s.title.slice(0, 40) + "…"
+                        : s.title}
+                    </a>
+                  ))}
+                </div>
+              )}
             </article>
           ))}
         </section>

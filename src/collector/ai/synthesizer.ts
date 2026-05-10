@@ -20,6 +20,8 @@ export async function synthesizeDigest(
   config: DomainConfig,
   client: ClientWithModel,
   locale: string,
+  fetchedSourceCount: number,
+  fetchedArticleCount: number,
 ): Promise<Digest> {
   const rules = config.editorialRules;
   const topCount = rules.dailyFeaturedCount;
@@ -60,8 +62,8 @@ export async function synthesizeDigest(
     date,
     locale,
     title: titleTemplate,
-    totalSources: new Set(allSources.map((s) => s.sourceId)).size,
-    totalArticles: scoredItems.length,
+    totalSources: fetchedSourceCount,
+    totalArticles: fetchedArticleCount,
     articles,
     quickNews,
     slug: `${date}-${domain}-digest`,

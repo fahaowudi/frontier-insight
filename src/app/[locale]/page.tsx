@@ -30,12 +30,16 @@ export default async function HomePage({
       <div className="mx-auto max-w-3xl px-4 sm:px-6 py-4 space-y-8">
         <HeroSection dict={dict} siteName={config.site.name} latest={latest} />
 
-        {latest && <FeaturedCard digest={latest} locale={locale} dict={dict} />}
+        {latest && (
+          <section>
+            <FeaturedCard digest={latest} locale={locale} dict={dict} />
+          </section>
+        )}
 
         {olderDigests.length > 0 && (
-          <section className="space-y-3">
+          <section className="space-y-6">
             {olderDigests.map((digest) => (
-              <ArticleCard
+              <FeaturedCard
                 key={digest.slug}
                 digest={digest}
                 locale={locale}

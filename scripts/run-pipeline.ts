@@ -102,6 +102,8 @@ async function main() {
           config,
           generatorClient,
           locale,
+          results.length,
+          allItems.length,
         );
         saveDigest(digest);
         console.log(
