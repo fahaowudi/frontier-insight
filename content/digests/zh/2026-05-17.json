@@ -1,0 +1,150 @@
+{
+  "date": "2026-05-17",
+  "locale": "zh",
+  "title": "2026-05-17 Frontier Insight日报",
+  "totalSources": 6,
+  "totalArticles": 627,
+  "articles": [
+    {
+      "number": 1,
+      "headline": "一颗远古牙齿里的“相亲记录”：直立人与丹尼索瓦人的史前浪漫",
+      "summary": "想象一下，几十万年前的地球上，不同种类的人类不仅相遇了，还谈起了跨越物种的“恋爱”。最近，科学家在一颗远古牙齿中发现了特殊的蛋白质，暗示直立人和神秘的丹尼索瓦人可能曾有过浪漫的交集。这一发现颠覆了我们对人类祖先的传统认知。\n\n为什么是牙齿里的蛋白质而不是DNA？因为DNA就像脆弱的纸条，在漫长的岁月中很容易降解消失，几十万年后往往难以读取。但蛋白质就像刻在石头上的密码，尤其是牙齿中的胶原蛋白，结构极其稳定，能存活上百万年。通过分析这些蛋白质的氨基酸序列，科学家就像扫描基因身份证一样，不仅确认了牙齿主人的身份，还发现了不同人种混血的蛛丝马迹。\n\n直立人是我们熟悉的远古祖先，他们最早走出了非洲；而丹尼索瓦人则是直到近年才通过化石碎片被世人所知的神秘人类。如果他们真的交配过，这意味着当不同的人类群体在欧亚大陆相遇时，他们并非只有剑拔弩张，还有基因的交流与融合。\n\n这项发现告诉我们，人类的进化史绝不是一条笔直的线，而是一张错综复杂的网。我们的祖先在漫长的迁徙中，与各种古人类发生了深度的互动。今天我们的基因里，依然流淌着这些史前浪漫相遇的痕迹，这正是生命不断融合、生生不息的奇妙证明。",
+      "tags": [
+        "古人类学",
+        "蛋白质组学",
+        "人类进化史",
+        "丹尼索瓦人",
+        "直立人"
+      ],
+      "sources": [
+        {
+          "title": "Did Homo erectus and Denisovans mate? Tooth proteins hint at ancient trysts",
+          "url": "https://www.scientificamerican.com/article/did-homo-erectus-and-denisovans-mate-tooth-proteins-hint-at-ancient-trysts/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "精液里的“休眠者”：汉坦病毒长期潜伏却不传染的秘密",
+      "summary": "提起病毒感染，我们通常认为只要症状消失，病毒就会被免疫系统彻底清除。然而，科学界最近发现了一个令人意外的现象：汉坦病毒——一种通常由老鼠传染给人类、可能引发严重肺部或肾脏疾病的病毒，竟然能在男性的精液中潜伏长达数年之久！这个发现最初让研究人员捏了一把汗：难道这种病毒还能通过性接触长期传播？\n别慌，答案是否定的。这里有一个关键的科学概念需要澄清：“存在”并不等于“传染”。研究人员在精液中检测到的，更多是病毒的“尸体”或“碎片”（如病毒RNA），而不是具有繁殖和感染能力的活病毒。打个比方，这就好比犯罪现场留下了小偷的指纹和毛发，但这并不意味着小偷现在还在房间里作案。病毒虽然在这个避风港里留下了痕迹，但大部分时候它们已经失去了致病和传染的能力。\n那么，为什么精液会成为病毒的“避难所”呢？这要归结于人体内一个奇妙的机制——免疫豁免区。像睾丸、眼睛和大脑这些重要而脆弱的器官，为了避免免疫细胞“杀敌一千自损八百”的剧烈炎症反应，会限制免疫细胞的进入。这使得精液成了病毒绝佳的藏身之地。事实上，汉坦病毒并不是唯一懂这个套路的，埃博拉病毒和寨卡病毒也曾被发现在精液中长期存留。\n这项发现对我们理解病毒与人类的“军备竞赛”有着深远意义。虽然汉坦病毒不会通过性途径持续传播，不必引发恐慌，但它提醒医生：在诊断和治疗时，需要考虑到病毒可能在这些特殊部位潜伏。同时，它也向科学家提出了新的挑战：这些病毒残骸在体内长期存在，到底是对人体毫无影响，还是在某种条件下会“死灰复燃”？解开这个谜团，将帮助我们更透彻地理解病毒的生存策略。",
+      "tags": [
+        "汉坦病毒",
+        "免疫豁免区",
+        "病毒传染性"
+      ],
+      "sources": [
+        {
+          "title": "Hantavirus can persist in semen for years, but that doesn’t mean it stays contagious",
+          "url": "https://www.scientificamerican.com/article/hantavirus-can-persist-in-semen-for-years-but-that-doesnt-mean-it-remains-contagious/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "人类重返月球倒计时：扒一扒NASA“阿耳忒弥斯3号”的底牌与悬念",
+      "summary": "自阿波罗时代以来，人类再也没有踏上过月球。NASA的阿耳忒弥斯3号任务就是要改变这一现状，目标不仅仅是留下脚印，而是要在月球南极建立长期存在。这就像是从“去月球露营”升级为“去月球建基地”，标志着人类太空探索进入新纪元，且这次将有第一位女性和有色人种宇航员登月。\n我们已知“交通工具”和“目的地”是什么。宇航员将乘坐猎户座飞船飞往月球，然后换乘SpaceX的星舰作为登月器降落。星舰就像是从母舰（猎户座）放下的小艇。目的地锁定在月球南极，因为那里有水冰——这可是太空中的“金子”，不仅能融化成饮用水，还能电解成氧气供呼吸，甚至能转化为氢气和氧气作为火箭燃料，为未来的月球基地提供生存保障。\n但悬念依然不少。最大的未知数是时间表，任务已经多次推迟。更硬核的技术挑战在于“太空加油”——星舰体型巨大，自身燃料不足以直接飞到月球，需要在地球轨道上由多艘加油船补充燃料。这在技术上极其复杂，就像是在高速公路上边开车边给油箱加油，稍有不慎就会前功尽弃。此外，宇航服的研发也进度滞后，没有合适的“防寒防辐射战袍”，宇航员就无法在月球极端环境中出舱行走。\n尽管困难重重，阿耳忒弥斯3号的意义远超一次简单的太空漫步。它是人类迈向深空、甚至登陆火星的“前哨站”。无论何时发射，这都将是我们这一代人见证的伟大太空探险的开端，让我们拭目以待。",
+      "tags": [
+        "NASA",
+        "阿尔忒弥斯计划",
+        "登月"
+      ],
+      "sources": [
+        {
+          "title": "What we know—and what we don’t—about NASA’s Artemis III mission",
+          "url": "https://www.scientificamerican.com/article/nasa-reveals-new-clues-to-2027s-artemis-iii-the-final-test-mission-before-a-moon-landing/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "沙漠蚂蚁自带“月球指南针”，能利用月光偏振精准导航认路。",
+      "source": {
+        "title": "These ants navigate with a compass tuned to the moon",
+        "url": "https://www.scientificamerican.com/article/these-ants-navigate-with-a-compass-tuned-to-the-moon/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "航母电磁弹射就像超级电磁弹弓，利用电磁力瞬间将战机加速至起飞，比传统蒸汽弹射更高效灵活。",
+      "source": {
+        "title": "给航母装上“超级弹弓”？电磁弹射，到底牛在哪",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816396.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "于敏构型是从零起步独创的氢弹设计方案，巧妙解决了核聚变点火难题，让中国直接跨越到了实战化氢弹。",
+      "source": {
+        "title": "从一张白纸起步，于敏构型，如何直接造出“能用”的氢弹？",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816389.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "宇称不守恒打破了“镜像世界物理规律完全相同”的常识，揭示了在弱相互作用下微观粒子的左右不对称性。",
+      "source": {
+        "title": "杨振宁当年发现，次年就获诺奖的宇称不守恒到底是个啥？",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816387.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "科学家正跨越从观察理解生命到像搭乐高一样人工合成生命的界限，探索创造全新生命形态的可能。",
+      "source": {
+        "title": "王红梅：从认识生命到合成生命",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835315.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "科学家为13万多个岛屿建立了“分形维度”目录，用数学量化了岛屿海岸线那种层层嵌套、曲折复杂的几何特征。",
+      "source": {
+        "title": "Scientists catalog the ‘fractal dimensions’ of more than 130,000 islands",
+        "url": "https://www.scientificamerican.com/article/scientists-catalog-the-fractal-dimensions-of-more-than-130-000-islands/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "生态学家在北京城市边缘追踪豹猫，揭示这种野生猫科动物如何在与人类共存的环境中顽强生存。",
+      "source": {
+        "title": "罗述金：我在北京追豹猫",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835313.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "餐饮店老板化身“禁烟斗士”贴满800张标语，用硬核手段保护打工人免受二手烟中有害物质的毒害。",
+      "source": {
+        "title": "二手烟中毒的打工人涌进“餐饮界林则徐”，店里贴了800张禁烟标语",
+        "url": "https://www.guokr.com/article/467445",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "变美不仅靠天生更靠硬核科技，AI与芯片等前沿技术正在重塑美妆与医美行业。",
+      "source": {
+        "title": "美丽也是技术活",
+        "url": "https://www.guokr.com/pretty",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "科学地“研制孙悟空”是一种跨界融合创作，探讨如何用基因编辑等前沿生物技术将神话想象变为现实。",
+      "source": {
+        "title": "融合创作",
+        "url": "https://www.kepu.net.cn/#",
+        "domain": "www.kepu.net.cn"
+      }
+    }
+  ],
+  "slug": "2026-05-17-science-digest",
+  "meta": {
+    "generatedAt": "2026-05-17T18:28:54.090Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}
