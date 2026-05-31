@@ -1,0 +1,150 @@
+{
+  "date": "2026-05-31",
+  "locale": "zh",
+  "title": "2026-05-31 Frontier Insight日报",
+  "totalSources": 6,
+  "totalArticles": 625,
+  "articles": [
+    {
+      "number": 1,
+      "headline": "破译生命密码：AI如何一秒看透十亿蛋白质的“真面目”",
+      "summary": "想象一下，你手里有一串由几十到几万个珠子（氨基酸）穿成的项链。如果把这串项链扔进水里，它会自动扭曲、折叠成一个极其复杂的3D形状——这就是蛋白质。在生命世界里，蛋白质是干活的“机器”，而它的形状决定了它的功能。过去，科学家要想知道一个蛋白质长什么样，得在实验室里用冷冻电镜等昂贵设备折腾好几年，这就是著名的“蛋白质折叠问题”。\n现在，人工智能（AI）改变了游戏规则。最新的蛋白质折叠AI就像是一个超级“算命大师”，它不需要看真实的蛋白质，只要输入那串“珠子”的排列顺序（基因序列），就能在几分钟甚至几秒钟内，精准预测出它折叠后的3D结构。最近，这个AI更是完成了惊人的壮举：一口气预测了10亿种蛋白质的结构！这比过去人类几十年的总和还要多出成千上万倍。\n你可能会问，AI是怎么做到的？秘诀在于“深度学习”。科学家喂给AI海量的已知蛋白质序列和结构数据，AI就像做海量阅读理解一样，自己摸索出了氨基酸序列和3D形状之间的隐藏规律。它发现，在漫长的进化中，某些氨基酸总是喜欢挨在一起，或者互相排斥，这些“暗号”决定了项链最终怎么打结。掌握了这些规律，AI就能举一反三，推算出未知蛋白质的模样。\n这10亿个预测结构意味着什么？它相当于给人类发放了一本“生命机器的说明书大全”。以前研发新药，科学家像是在黑夜里摸黑找锁孔；现在有了蛋白质的3D图纸，我们就能像开挂一样，直接设计出能精准结合靶点的小分子药物。从攻克阿尔茨海默症到研发能吃塑料的环保酶，这10亿个蛋白质结构不仅是数据，更是通向未来医学和生物工程的超级钥匙。",
+      "tags": [
+        "人工智能",
+        "蛋白质折叠",
+        "生物科技"
+      ],
+      "sources": [
+        {
+          "title": "New protein-folding AI predicts the structures of 1 billion proteins",
+          "url": "https://www.scientificamerican.com/article/new-protein-folding-ai-vastly-expands-on-alphafolds-efforts/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "打破宇宙的“镜像魔咒”：杨振宁与宇称不守恒的惊世发现",
+      "summary": "想象一下，你站在一面完美的镜子前，镜子里的你左手拿笔，镜子外的你右手拿笔，虽然左右相反，但物理规律完全一样。在1956年之前，物理学家们坚信宇宙就是这样一台完美的“镜像机器”——无论现实还是镜像，物理定律毫无差别，这被称为“宇称守恒”。它就像是物理学界的一条金科玉律，谁也没有怀疑过这面镜子会扭曲现实。\n然而，当时粒子物理学界遇到了一个棘手的“θ-τ之谜”：两种名叫θ和τ的粒子，体重、寿命等各项指标完全一样，就像一对双胞胎，但在衰变时却呈现出不同的“宇称”（镜像特征）。按照当时的理论，它们绝不可能是同一种粒子。这就好比发现一对双胞胎，一个照镜子正常，另一个照镜子却变成了另一个人，这让整个物理学界陷入了迷茫。\n就在大家一筹莫展时，杨振宁和李政道提出了一个极其大胆的假设：如果这面“镜子”本身就是破的呢？他们指出，在强相互作用和电磁相互作用中，宇称确实是守恒的；但在弱相互作用（导致粒子衰变的那种力）中，宇称可能根本不守恒！这意味着，在弱力的世界里，宇宙是有“左右手偏好”的，大自然并非我们想象的那样左右绝对对称。\n这个疯狂的想法很快被物理学家吴健雄用精妙的实验证实。她将钴-60原子冷却到极低温，让它们的自旋方向一致，结果发现，电子总是倾向于从一个特定的方向射出。如果宇宙是完美镜像的，电子应该均匀地向两个方向飞出。实验结果犹如一声惊雷：在弱相互作用下，宇宙真的分得清左右，它竟然是个“左撇子”！\n宇称不守恒的发现，彻底打破了人类对宇宙对称性的绝对信仰，它告诉我们，我们生活在一个略带“瑕疵”的宇宙中。而这种微小的不对称，恰恰可能是宇宙存在的关键——正是由于物质和反物质在弱相互作用下的行为不对称，才使得大爆炸后物质没有和反物质完全湮灭，留下了今天星光璀璨的世界。这一颠覆性的发现，让杨振宁和李政道在次年就斩获了诺贝尔物理学奖，创造了科学史上的传奇。",
+      "tags": [
+        "宇称不守恒",
+        "杨振宁",
+        "弱相互作用",
+        "诺贝尔奖"
+      ],
+      "sources": [
+        {
+          "title": "杨振宁当年发现，次年就获诺奖的宇称不守恒到底是个啥？",
+          "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816387.html",
+          "domain": "www.kepu.net.cn"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "美国科研“钱袋子”收紧：当顶级金主放慢了掏钱的速度",
+      "summary": "想象一下，你正在组队打一场漫长的游戏，突然你的“超级赞助商”说接下来的经费要晚点发，甚至可能缩水——这就是目前美国科学界正在经历的事情。据《科学美国人》报道，美国最顶级的科研资助机构正在放缓向大学发放研究拨款。对于许多大学实验室来说，这无异于一场“资金旱灾”的预警。\n为什么这很重要？我们需要先了解美国大学科研的“生存法则”。在那里，大部分前沿科学研究并不是靠学校自己掏腰包，而是依赖像国家科学基金会（NSF）或国立卫生研究院（NIH）这样的联邦机构“输血”。教授们就像是创业者，需要写长篇的申请书去竞争这些经费，用来买仪器、发工资、养团队。当“顶级金主”放慢了掏钱的速度，整个科研生态链就会像缺油的引擎一样运转不畅。\n这种“放缓”带来的影响是深远的。首先，它不仅意味着新项目难以启动，许多正在进行的项目也可能因为断供而被迫按下暂停键。其次，最大的受害者往往是那些刚刚起步的年轻科学家和研究生，他们可能因为拿不到奖学金或工资而不得不放弃科研梦想。科研的黄金期往往很短暂，资金的拖延可能直接扼杀一个未来的科学之星。\n更深层次来看，科学研究是一场接力赛，今天的投入决定了明天的产出。无论是攻克癌症、开发新材料，还是应对气候变化，都需要持续稳定的资金支持。当资助机构踩下刹车，受影响的不仅是大学里的几座实验室，更是我们全人类迈向未来的步伐。这提醒我们，科学的进步不仅需要聪明的头脑，更离不开坚实的物质后盾。",
+      "tags": [
+        "科研资助",
+        "美国科学界",
+        "大学研究",
+        "科技政策"
+      ],
+      "sources": [
+        {
+          "title": "Top U.S. science funder slows research grants to universities",
+          "url": "https://www.scientificamerican.com/article/top-u-s-science-funder-slows-research-grants-to-universities/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "AI发展迅猛却遭遇了“记性不够用”的内存瓶颈，就像脑子转得飞快但记忆力跟不上的学生。",
+      "source": {
+        "title": "The AI boom has a memory problem",
+        "url": "https://www.scientificamerican.com/article/high-bandwidth-memory-is-a-bottleneck-for-ai-chips/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "航母上的电磁弹射就像超级磁力弹弓，利用电磁力瞬间将战机弹射升空，比传统蒸汽弹射更强劲且灵活。",
+      "source": {
+        "title": "给航母装上“超级弹弓”？电磁弹射，到底牛在哪",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816396.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "中国科学家于敏从零开始独创了“于敏构型”，巧妙设计出一种全新结构，让我国跳过过渡阶段直接拥有了实战型氢弹。",
+      "source": {
+        "title": "从一张白纸起步，于敏构型，如何直接造出“能用”的氢弹？",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816389.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "科学家正跨越从“观察生命”到“创造生命”的界限，像搭乐高一样在实验室里人工合成全新的生命体。",
+      "source": {
+        "title": "王红梅：从认识生命到合成生命",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835315.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "哈勃望远镜拍下了一张绝美新照，记录下了一个螺旋星系在室女座星系团中“漫步”的壮观景象。",
+      "source": {
+        "title": "NASA’s Hubble captures gorgeous new photo of a spiral galaxy as it wanders through the Virgo Cluster",
+        "url": "https://www.scientificamerican.com/article/nasas-hubble-captures-gorgeous-new-photo-of-a-spiral-galaxy-as-it-wanders-through-the-virgo-cluster/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "生态学家在北京追踪野生豹猫的踪迹，研究这种神秘小猫如何在城市边缘生存，以守护都市的生物多样性。",
+      "source": {
+        "title": "罗述金：我在北京追豹猫",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835313.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "二战诺曼底登陆的成败竟系于一次精准的天气预报，盟军正是抓住了风暴间短暂的天气窗口才取得了胜利。",
+      "source": {
+        "title": "How the success of D-Day hinged on a weather forecast",
+        "url": "https://www.scientificamerican.com/article/how-the-success-of-d-day-hinged-on-a-weather-forecast/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "为了保护打工人免受二手烟危害，有餐厅老板化身“餐饮界林则徐”，用数百张禁烟标语打造出无烟就餐环境。",
+      "source": {
+        "title": "二手烟中毒的打工人涌进“餐饮界林则徐”，店里贴了800张禁烟标语",
+        "url": "https://www.guokr.com/article/467445",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "切开的酱牛肉泛出彩虹色并不是变质，而是肌肉纤维被切开后产生的光栅衍射现象，懂点科学才不会被错觉骗了。",
+      "source": {
+        "title": "美丽也是技术活",
+        "url": "https://www.guokr.com/pretty",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "腾讯云升级了AI智能体开发平台，提供更强大的工具和资源，让各行各业都能更轻松地定制和合作开发专属的AI助手。",
+      "source": {
+        "title": "腾讯云智能体开发平台升级：做深平台、做厚内容、做强应用，构筑Agent产业合作新生态",
+        "url": "https://www.guokr.com/article/468297",
+        "domain": "www.guokr.com"
+      }
+    }
+  ],
+  "slug": "2026-05-31-science-digest",
+  "meta": {
+    "generatedAt": "2026-05-31T18:29:23.320Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}
