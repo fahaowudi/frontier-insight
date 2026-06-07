@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-07",
+  "locale": "en",
+  "title": "Frontier Insight Daily Digest — 2026-06-07",
+  "totalSources": 6,
+  "totalArticles": 626,
+  "articles": [
+    {
+      "number": 1,
+      "headline": "Cosmic Creators: How the Universe's Most Terrifying Black Holes Are Actually Planet-Making Powerhouses",
+      "summary": "We usually think of black holes as the ultimate cosmic destroyers, monstrous gravitational wells that shred stars and swallow light. However, a mind-bending new perspective from astrophysicists suggests that these terrifying giants might actually be the universe's most efficient planet makers. It sounds like a sci-fi plot twist, but the physics behind it makes perfect sense once you look past the dark void.\n\nThe secret lies in the swirling chaos surrounding the black hole, not the black hole itself. Supermassive black holes are encircled by massive, rotating frisbees of gas and dust called accretion disks. While the inner zones of these disks are violently hot and deadly, the outer edges are incredibly vast, relatively calm, and packed tight with the raw ingredients for building worlds.\n\nIn these cooler outer regions, dust grains collide and stick together, gradually snowballing into pebbles, boulders, and eventually full-fledged planets. This is the exact same process that birthed Earth and the other planets in our solar system from the disk around our young Sun. The difference? A black hole's accretion disk is millions of times larger and more massive than a star's, providing an unimaginably colossal sandbox for planet formation.\n\nThis discovery flips our cosmic narrative upside down. Instead of just being dead-end shredders of the universe, supermassive black holes might be bustling construction sites, churning out countless planets in the dark. It's a brilliant reminder that in science, the most destructive forces in nature can also be the greatest creators.",
+      "tags": [
+        "Black Holes",
+        "Planet Formation",
+        "Astrophysics",
+        "Accretion Disks",
+        "Space Science"
+      ],
+      "sources": [
+        {
+          "title": "Giant black holes may be the universe’s best planet makers",
+          "url": "https://www.scientificamerican.com/article/planets-aplenty-may-lurk-around-supermassive-black-holes/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "Breaking the Sound Barrier in Silence: How NASA's X-59 is Redefining Supersonic Flight",
+      "summary": "NASA’s X-59 aircraft has officially gone supersonic, but this milestone isn't just about speed—it's about silence. For decades, commercial supersonic flight over land has been banned because breaking the sound barrier creates a thunderous, window-rattling 'sonic boom' that disturbs communities below. The X-59, also known as the Quiet SuperSonic Technology aircraft, aims to change that by flying faster than sound without the deafening noise.\n\nTo understand why the X-59 is so revolutionary, you need to know how a sonic boom happens. When a plane flies, it pushes air molecules out of the way, creating sound waves. As the aircraft approaches the speed of sound (about 767 mph), it catches up to its own sound waves, squishing them together into a massive, high-pressure shock wave. When this compressed wave reaches your ears on the ground, it sounds like an explosion—hence the term 'sonic boom.'\n\nThe genius of the X-59 lies in its unusual shape. It features an extraordinarily long, needle-like nose and highly swept-back wings. This unique geometry acts like a sculptor, carefully spreading out the shock waves before they can merge into a single, violent boom. Instead of a loud crack, the shock waves reach the ground separately, producing a much softer thump—about as loud as a car door closing, which NASA calls a 'sonic thump.'\n\nIf the X-59 proves that supersonic flight can be quiet, it could completely revolutionize air travel. Regulators could lift the long-standing bans on overland supersonic flights, paving the way for a new generation of airliners that could cut travel times in half. Imagine flying from New York to Los Angeles in just a couple of hours without shaking the neighborhoods below—that is the future the X-59 is reaching for.",
+      "tags": [
+        "NASA",
+        "Supersonic Flight",
+        "Aerodynamics"
+      ],
+      "sources": [
+        {
+          "title": "NASA’s X-59 plane goes supersonic for the first time",
+          "url": "https://www.scientificamerican.com/article/nasas-x-59-plane-goes-supersonic-for-the-first-time/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "Shattering the Cosmic Mirror: The Nobel-Winning Discovery of Parity Violation",
+      "summary": "Imagine looking at yourself in a mirror. For a long time, physicists believed that the universe was a perfect mirror. This concept, called \"parity,\" meant that nature does not distinguish between left and right. If you watched a physics experiment in a mirror, the mirrored version would perfectly follow the same laws of physics as the real one. This idea was so elegant and intuitive that it became a sacred rule in the physics community, known as the conservation of parity.\nHowever, in the 1950s, physicists encountered a baffling puzzle known as the theta-tau mystery. Two particles seemed identical in every way, yet they decayed into states with different parity. Chen-Ning Yang and Tsung-Dao Lee took a radical approach: what if the universe is not a perfect mirror after all? They proposed that in the \"weak interaction\"—the fundamental force responsible for radioactive decay—parity is not conserved. In other words, nature actually does have a preference for left or right.\nTo prove this mind-bending theory, physicist Chien-Shiung Wu conducted a famous experiment using cobalt-60 atoms. She aligned the atoms' spins in a magnetic field at near absolute zero and watched where the electrons flew out during radioactive decay. If parity were conserved, the electrons would shoot out equally in both directions relative to the spin. Instead, Wu found that the electrons overwhelmingly preferred one direction. The mirror image of this experiment simply does not exist in nature.\nThis discovery was revolutionary. It shattered a long-held assumption about the symmetry of the universe, showing that nature is fundamentally \"handed\" or asymmetrical. The impact was so profound that Yang and Lee were awarded the Nobel Prize in Physics just one year later, in 1957. Their work reminds us that even the most deeply ingrained scientific beliefs must yield to experimental evidence, and sometimes, the universe is far stranger than our intuition suggests.",
+      "tags": [
+        "Parity Violation",
+        "Chen-Ning Yang",
+        "Nobel Prize",
+        "Particle Physics",
+        "Symmetry"
+      ],
+      "sources": [
+        {
+          "title": "杨振宁当年发现，次年就获诺奖的宇称不守恒到底是个啥？",
+          "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816387.html",
+          "domain": "www.kepu.net.cn"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "Starting from scratch, the innovative Yu Min configuration made it possible to directly create a practical and usable hydrogen bomb through unique theoretical design.",
+      "source": {
+        "title": "从一张白纸起步，于敏构型，如何直接造出“能用”的氢弹？",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816389.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "Prediction markets could help forecast the future of scientific discoveries by using the collective wisdom of crowds to bet on upcoming breakthroughs.",
+      "source": {
+        "title": "How prediction markets could forecast the future of science",
+        "url": "https://www.scientificamerican.com/article/how-prediction-markets-could-forecast-the-future-of-science/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "Electromagnetic catapults on aircraft carriers act like super slingshots, using electromagnetic force to launch planes more smoothly and efficiently than traditional steam-powered systems.",
+      "source": {
+        "title": "给航母装上“超级弹弓”？电磁弹射，到底牛在哪",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816396.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "Wang Hongmei's work highlights the incredible journey of synthetic biology, moving from simply understanding natural life to artificially creating it in the lab.",
+      "source": {
+        "title": "王红梅：从认识生命到合成生命",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835315.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "Aquanauts experience an awe-inspiring 'underview effect' when looking up from the deep ocean, similar to how astronauts feel looking down at Earth from space.",
+      "source": {
+        "title": "Aquanauts experience awe-inspiring ‘underview effect’",
+        "url": "https://www.scientificamerican.com/article/aquanauts-experience-awe-inspiring-underview-effect/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "Luo Shujin tracks and studies leopard cats in Beijing, highlighting the importance of urban wildlife conservation and biodiversity in city environments.",
+      "source": {
+        "title": "罗述金：我在北京追豹猫",
+        "url": "http://self.kepu.net.cn/self_yj/202604/t20260427_835313.html",
+        "domain": "self.kepu.net.cn"
+      }
+    },
+    {
+      "text": "Workers suffering from secondhand smoke are seeking out strictly non-smoking restaurants, highlighting the serious health risks of secondhand smoke and the need for protective public health measures.",
+      "source": {
+        "title": "二手烟中毒的打工人涌进“餐饮界林则徐”，店里贴了800张禁烟标语",
+        "url": "https://www.guokr.com/article/467445",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "Tencent Cloud has upgraded its AI agent development platform to enhance tools, enrich content, and strengthen applications, fostering a new collaborative ecosystem for the AI industry.",
+      "source": {
+        "title": "腾讯云智能体开发平台升级：做深平台、做厚内容、做强应用，构筑Agent产业合作新生态",
+        "url": "https://www.guokr.com/article/468297",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "Creating beautiful products is a technical feat, as demonstrated by tech and auto companies like BYD using technological innovation to break through traditional industry boundaries.",
+      "source": {
+        "title": "美丽也是技术活",
+        "url": "https://www.guokr.com/pretty",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "Scientific American serves as a leading publication dedicated to making complex scientific discoveries accessible and understandable to the general public.",
+      "source": {
+        "title": "Scientific American",
+        "url": "https://www.scientificamerican.com",
+        "domain": "www.scientificamerican.com"
+      }
+    }
+  ],
+  "slug": "2026-06-07-science-digest",
+  "meta": {
+    "generatedAt": "2026-06-07T18:31:47.040Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}
