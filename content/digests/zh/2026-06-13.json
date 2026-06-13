@@ -1,0 +1,150 @@
+{
+  "date": "2026-06-13",
+  "locale": "zh",
+  "title": "2026-06-13 Frontier Insight日报",
+  "totalSources": 6,
+  "totalArticles": 617,
+  "articles": [
+    {
+      "number": 1,
+      "headline": "人类首次注射“返老还童”药：细胞重置时光的奥秘",
+      "summary": "想象一下，如果你的手机用久了变得卡顿，最彻底的解决办法是什么？是“恢复出厂设置”。最近，科学界完成了一项史无前例的壮举：人类首次将一种能让细胞“重返年轻”的疗法注射进人体。这标志着我们不再只是被动地治疗衰老带来的疾病，而是开始尝试直接对“衰老”本身按下倒退键。\n\n这项神奇疗法的核心原理，叫做“表观遗传重编程”。如果把我们的DNA比作一本厚厚的乐谱，那么细胞在衰老过程中，乐谱上会被乱涂乱画上各种记号（表观遗传标记），导致细胞“弹错音”或者功能退化。科学家利用了荣获诺贝尔奖的“山中因子”，这些因子就像是一块神奇的橡皮擦，能擦去乐谱上的乱涂乱画，让细胞恢复到刚出生时的年轻状态，但同时又不会改变细胞原本的身份——皮肤细胞依然是皮肤细胞，不会变回最初的干细胞。\n\n然而，这种“时光倒流”并非没有风险。最大的挑战在于“火候”的把控：如果重编程过度，细胞不仅会失去年龄，还会“忘记”自己是谁，甚至可能变成危险的肿瘤。因此，目前的疗法就像是在走钢丝，科学家必须精准控制山中因子的作用时间，只让细胞返老还童，却不剥夺它们的专业技能。\n\n尽管前路依然充满未知和挑战，但这次人体注射无疑是抗衰老领域的里程碑。它意味着人类正在从“修补衰老的后果”转向“逆转衰老的根源”。也许在不久的将来，我们真的能像给手机刷机一样，为自己的身体来一次深度的“系统升级”，让健康和活力陪伴我们更久。",
+      "tags": [
+        "细胞重编程",
+        "抗衰老",
+        "表观遗传学"
+      ],
+      "sources": [
+        {
+          "title": "World-first: therapy to make cells young again given to a person",
+          "url": "https://www.scientificamerican.com/article/world-first-therapy-to-make-cells-young-again-given-to-a-person/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "headline": "沉睡地底的“碳炸弹”将醒：永久冻土融化如何让全球变暖火上浇油",
+      "summary": "想象一下，地球的极地有一个巨大的天然冰柜，已经紧闭了数万年。这就是永久冻土。在这个冰柜里，冰封着无数远古动植物的残骸。因为极度寒冷，这些有机物就像被按下了“暂停键”，无法腐烂分解。然而，随着全球变暖，这个冰柜正在断电，原本沉睡的远古碳即将苏醒。\n科学家们最近发出了警告：永久冻土的融化不仅会释放表层碳，还可能释放出隐藏在更深处的“深碳”。以前，人们以为深层的冻土足够坚固，能把那些远古碳永远锁住。但现在，不断攀升的温度正在突破这道防线。当冻土融化，那些被冰封的微生物就会“复活”，开始大口吞噬远古有机物，并排出二氧化碳和甲烷——甲烷可是比二氧化碳强几十倍的温室气体。\n这就是气候学中最让人担忧的“正反馈循环”：全球变暖导致冻土融化，冻土融化释放温室气体，这些气体又进一步加剧全球变暖，从而融化更多冻土。这就像你在下坡时滚雪球，雪球越滚越大，速度越来越快，完全停不下来。原本我们以为人类减少排放就能控制气温，但“深碳”的释放意味着大自然也在给气候变暖“添柴加火”。\n这项发现给我们敲响了警钟：气候变化不仅仅是人类活动排放的问题，它正在唤醒地球自身隐藏的危机。如果我们不尽快采取行动减少碳排放，阻止这个“天然冰柜”彻底崩溃，一旦深碳被大规模释放，我们将面临难以逆转的气候灾难。保护环境，已经是在与时间赛跑。",
+      "tags": [
+        "永久冻土",
+        "深碳",
+        "气候反馈"
+      ],
+      "sources": [
+        {
+          "title": "Earth’s permafrost could soon release hidden ‘deep carbon,’ supercharging warming",
+          "url": "https://www.scientificamerican.com/article/earths-permafrost-could-soon-release-hidden-deep-carbon-supercharging-warming/",
+          "domain": "www.scientificamerican.com"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "headline": "打破物理学的“照妖镜”：杨振宁获诺奖的“宇称不守恒”究竟是什么？",
+      "summary": "想象你站在一面镜子前，左手拿苹果，右手拿橘子，镜子里的你则是右手拿苹果，左手拿橘子。在很长一段时间里，物理学家们坚信宇宙的规律就像照镜子一样，存在一种完美的对称性——即“宇称守恒”。他们认为，真实世界里的物理实验和在镜子里看这个实验，规律是完全一样的，大自然分不出“左”和“右”的绝对区别。\n然而，20世纪50年代，物理学界遇到了一个棘手的“θ-τ之谜”：两种粒子明明长得一模一样，却在弱相互作用下的衰变方式截然不同。杨振宁和李政道做出了一个极其大胆的猜想：也许我们一直深信不疑的“宇称守恒”并不是宇宙的铁律，在弱相互作用中，大自然可能就是个“偏心眼”，宇称其实是不守恒的！\n这个猜想很快被物理学家吴健雄用著名的钴-60实验证实。她把放射性原子核在极低温下排列整齐，让它们的自旋方向一致，然后观察电子飞出的方向。如果宇称守恒，电子向左飞和向右飞的概率应该完全相等；但实验结果却显示，电子更倾向于沿着原子核自旋的逆方向飞出。这就好比一个旋转的足球，总是只向左拐，绝不向右拐。这个实验一锤定音，证明了在弱相互作用下，宇宙真的分得清左右，大自然竟然是个“左撇子”！\n“宇称不守恒”的发现，堪称物理学界的一场大地震。它打破了人们对宇宙完美对称的固有执念，告诉我们这个世界在最底层的规律上，其实有着自己的“偏爱”。正是这一颠覆性的认知突破，让杨振宁和李政道在提出理论的次年就斩获了诺贝尔物理学奖，也为我们今天理解基本粒子和宇宙的起源打开了一扇全新的大门。",
+      "tags": [
+        "宇称不守恒",
+        "杨振宁",
+        "物理学",
+        "对称性破缺",
+        "诺贝尔奖"
+      ],
+      "sources": [
+        {
+          "title": "杨振宁当年发现，次年就获诺奖的宇称不守恒到底是个啥？",
+          "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816387.html",
+          "domain": "www.kepu.net.cn"
+        }
+      ]
+    }
+  ],
+  "quickNews": [
+    {
+      "text": "电磁弹射就像给航母装上了用磁力驱动的“超级弹弓”，比传统蒸汽弹射更省力、更精准地把飞机弹上天。",
+      "source": {
+        "title": "给航母装上“超级弹弓”？电磁弹射，到底牛在哪",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816396.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "NASA的静音超音速飞机突破了关键测试，有望让飞机在超音速飞行时不再产生扰民的巨大“音爆”声。",
+      "source": {
+        "title": "NASA’s experimental quiet supersonic plane passes another critical milestone",
+        "url": "https://www.scientificamerican.com/article/nasas-experimental-quiet-supersonic-plane-passes-another-critical-milestone/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "中国科学家于敏从零开始，独创了一种精巧的氢弹内部结构，让氢弹不仅能造出来，还能直接投入实战使用。",
+      "source": {
+        "title": "从一张白纸起步，于敏构型，如何直接造出“能用”的氢弹？",
+        "url": "https://www.kepu.net.cn/kpqykj/all/2025/202601/t20260109_816389.html",
+        "domain": "www.kepu.net.cn"
+      }
+    },
+    {
+      "text": "钨这种耐高温的硬核金属面临全球短缺，这促使美国重新燃起国内开采钨矿的雄心。",
+      "source": {
+        "title": "Tungsten crunch rekindles U.S. mining ambitions",
+        "url": "https://www.scientificamerican.com/article/u-s-industries-push-to-revive-tungsten-production-amid-shortage/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "前美国卫生官员揭秘，特朗普政府当年为何对一项证明“饮酒有害健康”的权威科学报告视而不见。",
+      "source": {
+        "title": "Former U.S. health official explains why the Trump administration ‘ignored’ a key alcohol study",
+        "url": "https://www.scientificamerican.com/article/former-u-s-health-official-explains-why-the-trump-administration-ignored-a-key-alcohol-study/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "为了躲避二手烟的危害，打工人纷纷涌进贴满禁烟标语的餐厅，让老板成了餐饮界的“禁烟英雄”。",
+      "source": {
+        "title": "二手烟中毒的打工人涌进“餐饮界林则徐”，店里贴了800张禁烟标语",
+        "url": "https://www.guokr.com/article/467445",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "腾讯云升级了AI智能体开发平台，让搭建AI助手变得像搭积木一样简单，吸引了更多企业一起玩转AI生态。",
+      "source": {
+        "title": "腾讯云智能体开发平台升级：做深平台、做厚内容、做强应用，构筑Agent产业合作新生态",
+        "url": "https://www.guokr.com/article/468297",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "这是一道考验空间想象力和几何知识的趣味数学题，带你通过计算图形长度来锻炼大脑。",
+      "source": {
+        "title": "Math Puzzle: Go to great lengths",
+        "url": "https://www.scientificamerican.com/game/math-puzzle-great-lengths/",
+        "domain": "www.scientificamerican.com"
+      }
+    },
+    {
+      "text": "从造车到搞科技，比亚迪正通过硬核技术跨界突围，证明“变美”和“变强”都离不开技术创新。",
+      "source": {
+        "title": "美丽也是技术活",
+        "url": "https://www.guokr.com/pretty",
+        "domain": "www.guokr.com"
+      }
+    },
+    {
+      "text": "即使身处光污染严重的城市角落，天文爱好者依然可以通过技巧和热爱，捕捉到属于自己的璀璨星空。",
+      "source": {
+        "title": "基德：在城市角落拥抱星辰大海",
+        "url": "http://self.kepu.net.cn/self_yj/202606/t20260609_841313.html",
+        "domain": "self.kepu.net.cn"
+      }
+    }
+  ],
+  "slug": "2026-06-13-science-digest",
+  "meta": {
+    "generatedAt": "2026-06-13T18:34:08.022Z",
+    "version": "1.0",
+    "industry": "science"
+  }
+}
